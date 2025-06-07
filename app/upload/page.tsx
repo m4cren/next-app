@@ -20,6 +20,7 @@ const UploadPage = () => {
          <CldUploadWidget
             options={{
                sources: ["local"],
+               multiple: false,
             }}
             onSuccess={(result) => {
                const res = result.info as UploadResultTypes;
